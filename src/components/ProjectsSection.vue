@@ -33,7 +33,7 @@ const projects = computed(() => [
         title: t('sections.projects.portfolio.title'),
         description: t('sections.projects.portfolio.description'),
         image: '/images/projects/portfolio.png',
-        githubLink: 'https://github.com/Kvnduf',
+        githubLink: 'https://github.com/Kvnduf/portfolio-kevduf',
     },
     {
         title: t('sections.projects.systemUpdater.title'),
