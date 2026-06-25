@@ -1,0 +1,53 @@
+{
+  "header": {
+    "nav": {
+      "about": "About",
+      "skills": "Skills",
+      "projects": "Projects",
+      "contact": "Contact"
+    }
+  },
+  "sections": {
+    "about": {
+      "hiIm": "Hello! I am",
+      "myProjects": "My projects",
+      "contactMe": "Contact me",
+      "description": {
+        "p1": "My name is Kévin DUFAUT and I am currently a first-year Master's student in Computer Science at the Grenoble Alpes University (UGA).",
+        "p2": "Passionate about everything related directly or indirectly to computer science for years, I am training myself through personal self-taught projects, as well as through the courses taken during my university studies.",
+        "p3": "At the end of this Master's degree, I wish to join a company specialized in cybersecurity, software development, or hardware design.",
+        "p4": "Today, any opportunity allowing me to acquire new skills and enrich my experience in these fields that I am passionate about represents a real chance to progress and move closer to my professional goals."
+      }
+    },
+    "skills": {
+      "title": "My Skills",
+      "subtitle": "Here is an overview of the programming languages, tools and technologies I have used in my projects.",
+      "development": "Development",
+      "toolsAndServices": "Tools / Services"
+    },
+    "projects": {
+      "title": "My Projects",
+      "subtitle": "Here you will find a non-exhaustive list of projects I have recently developed.",
+      "portfolio": {
+        "title": "Portfolio",
+        "description": "My personal portfolio developed with Vue.js, hosted on GitHub Pages."
+      },
+      "systemUpdater": {
+        "title": "Linux Update Manager",
+        "description": "A C program that performs updates for package managers and automatically removes unnecessary packages on any Linux system."
+      }
+    },
+    "contact": {
+      "title": "Contact Me",
+      "name": "Name",
+      "placeholderName": "Enter your name",
+      "email": "Email",
+      "placeholderEmail": "Enter your email",
+      "message": "Message",
+      "placeholderMessage": "Enter your message",
+      "send": "Send",
+      "successMessage": "Your message has been sent successfully!",
+      "errorMessage": "An error occurred while sending your message."
+    }
+  }
+}

@@ -1,0 +1,57 @@
+
+
+:root {
+  --color-text-primary: #ffffff;
+  --color-text-primary-hover: #B2B3BD;
+  --headings-font: "Exo 2", Arial, sans-serif;
+  --text-font: "Poppins", Arial, sans-serif;
+}
+
+:root,
+.theme-blue {
+  --navbar: url("./navbars/blue_bar.png");
+  --color-bg-1: #0d1520;
+  --color-bg-2: #111927;
+  --color-interactive-1: #0d2847;
+  --color-interactive-2: #004074;
+  --color-separator: #205d9e;
+  --color-solid: #0090ff;
+  --color-solid-hover: #2870BD;
+  --color-text-secondary: #70b8ff;
+}
+
+.theme-orange {
+  --navbar: url("./navbars/orange_bar.png");
+  --color-bg-1: #17120e;
+  --color-bg-2: #1e160f;
+  --color-interactive-1: #331e0b;
+  --color-interactive-2: #562800;
+  --color-separator: #7e451d;
+  --color-solid: #f76b15;
+  --color-solid-hover: #A35829;
+  --color-text-secondary: #ffa057;
+}
+
+.theme-green {
+  --navbar: url("./navbars/green_bar.png");
+  --color-bg-1: #0e1511;
+  --color-bg-2: #141a15;
+  --color-interactive-1: #1b2a1e;
+  --color-interactive-2: #25482d;
+  --color-separator: #366740;
+  --color-solid: #46a758;
+  --color-solid-hover: #3E7949;
+  --color-text-secondary: #71d083;
+}
+
+.theme-red {
+  --navbar: url("./navbars/red_bar.png");
+  --color-bg-1: #180e0d;
+  --color-bg-2: #211311;
+  --color-interactive-1: #3f0f0b;
+  --color-interactive-2: #6a0402;
+  --color-separator: #95281e;
+  --color-solid: #ff0000;
+  --color-solid-hover: #C03529;
+  --color-text-secondary: #ff907f;
+}

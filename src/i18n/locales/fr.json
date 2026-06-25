@@ -1,0 +1,53 @@
+{
+  "header": {
+    "nav": {
+      "about": "A propos",
+      "skills": "Compétences",
+      "projects": "Projets",
+      "contact": "Contact"
+    }
+  },
+  "sections" : {
+    "about": {
+      "hiIm": "Bonjour ! Je suis",
+      "myProjects": "Mes projets",
+      "contactMe": "Me contacter",
+      "description" : {
+        "p1": "Je m'appelle Kévin DUFAUT et je suis actuellement étudiant en première année de Master Informatique à l'Université Grenoble Alpes (UGA).",
+        "p2": "Passionné de tout ce qui est lié de proche ou de loin à l'informatique depuis des années, je me forme à travers des projets personnels réalisés en autodidacte, ainsi que grâce aux enseignements suivis au cours de mon parcours universitaire.",
+        "p3": "À l’issue de ce Master, je souhaite intégrer une entreprise spécialisée dans les domaines de la cybersécurité, du développement logiciel ou de la conception matérielle.",
+        "p4": "Aujourd’hui, toute opportunité me permettant d’acquérir de nouvelles compétences et d’enrichir mon expérience dans ces secteurs qui me passionnent représente une réelle chance de progresser et de me rapprocher de mes objectifs professionnels."
+      }
+    },
+    "skills": {
+      "title": "Mes Compétences",
+      "subtitle": "Voici un aperçu des langages de programmation, outils et technologies que j'ai utilisées dans mes projets.",
+      "development": "Développement",
+      "toolsAndServices": "Outils / Services"
+    },
+    "projects": {
+      "title": "Mes Projets",
+      "subtitle": "Ici vous allez trouver une liste non-exhaustive des projets que j'ai développé récemment.",
+      "portfolio": {
+        "title": "Portfolio",
+        "description": "Mon portfolio personnel développé avec Vue.js, herbergé sur GitHub Pages."
+      },
+      "systemUpdater": {
+        "title": "Gestionnaire de mises à jour Linux",
+        "description": "Un programme en C permettant d'effectuer les mises à jour des gestionnaires de paquets et d'éliminer les paquets inutiles automatiquement sur n'importe quel système Linux."
+      }
+    },
+    "contact": {
+      "title": "Me Contacter",
+      "name": "Nom",
+      "placeholderName": "Entrez votre nom",
+      "email": "Email",
+      "placeholderEmail": "Entrez votre email",
+      "message": "Message",
+      "placeholderMessage": "Entrez votre message",
+      "send": "Envoyer",
+      "successMessage": "Votre message a été envoyé avec succès !",
+      "errorMessage": "Une erreur est survenue lors de l'envoi de votre message."
+    }
+  }
+}

@@ -1,0 +1,33 @@
+@import './base.css';
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: var(--color-text-primary);
+  font-family: var(--text-font);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--headings-font);
+}
+
+
+body {
+  min-height: 100vh;
+  background: var(--color-bg-1);
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: 1.6;
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
