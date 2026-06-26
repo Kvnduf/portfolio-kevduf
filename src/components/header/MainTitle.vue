@@ -1,6 +1,7 @@
 <template>
     <div class="main-title">
-        <img src="/images/profile-picture.jpg" class="logo-image">
+        <!-- <img src="/images/profile-picture.jpg" class="logo-image"> -->
+        <div class="logo-image"></div> <!-- Placeholder for the profile picture --> 
         <h1>Kévin DUFAUT</h1>
     </div>
 </template>
@@ -29,6 +30,10 @@
     height: auto;
     border-radius: 50%;
     border: 2px solid var(--color-text-primary);
+
+    /* Placeholder for the profile picture */
+    background : #ffffff00;
+    height: 5em;
 }
 
 
