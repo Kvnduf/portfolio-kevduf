@@ -32,13 +32,13 @@ const projects = computed(() => [
     {
         title: t('sections.projects.portfolio.title'),
         description: t('sections.projects.portfolio.description'),
-        image: '/images/projects/portfolio.png',
+        image: new URL('/images/projects/portfolio.png', import.meta.url).href,
         githubLink: 'https://github.com/Kvnduf/portfolio-kevduf',
     },
     {
         title: t('sections.projects.systemUpdater.title'),
         description: t('sections.projects.systemUpdater.description'),
-        image: '/images/projects/system-updater.jpg',
+        image: new URL('/images/projects/system-updater.jpg', import.meta.url).href,
         githubLink: 'https://github.com/Kvnduf/package-manager-updater',
     }
 ])
